@@ -44,7 +44,7 @@ width: 280px;
 height: 280px;
 }
 
-.banner1 { position: absolute;
+.banner1 { position: relative;
 left: 23%;
 top: 1.5%;
 }
@@ -54,7 +54,7 @@ width: 50%;
 
 .fundo li { position: static;
 float: right;
-width: 2200px;
+width: 100%;
 height: 250px;
 top: 3%;
 border-top-right-radius: 10px;
@@ -69,6 +69,24 @@ top: 53.6%;
 border: solid;
 border-radius: 7px;
 background-color: white;
+}
+
+.cart { position: relative;
+left: 72.5%;
+top: -10%;
+color: #272727;
+}
+.cart img { width: 3%;
+}
+.cart a { text-decoration: none;
+color: inherit;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.number { position: relative;
+left: 80%;
+top: 55%;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .cardapio .titulo {
@@ -111,4 +129,32 @@ background-color: black;
 border-radius: 10px;
 left: 55%;
 top: 74%;
+}
+
+#Busca { background-color: white;
+position: absolute;
+left: 75%;
+top: 10%;
+border: solid 1px;
+border-radius: 15px;
+width: 300px;
+display: block;
+align-items: center;
+}
+#Busca img { width: 8%;
+display: flex;
+justify-content: center;
+
+}
+#txtBusca { float: left;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 5px;
+font-style: italic;
+font-size: 18px;
+border: none;
+height: 24px;
+width: 260px;
 }
