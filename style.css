@@ -29,6 +29,220 @@ display: none;
 }
 .menu li:hover ul, .menu li.over ul { display: block;
 }
+.featured {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 126%;
+    width: 65.4%;
+    height: 5%;
+    left: 0;
+    background-color: red;
+    border: 5px solid black;
+}
+.featured li{
+    font-size: 23px;
+    text-decoration: none;
+    list-style: none;
+    margin: 3%;
+}
+
+.products img {
+    width: 45%;
+}
+.products .product1 {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 31.7%;
+    height: 35.7%;
+    top: 132.65%;
+    left: 0;
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.products .product1 .txt1 {
+    position: absolute;
+    top: -12.4%;
+    left: 47%;
+    font-size: x-large;
+    color: red;
+}
+.products .cont1 {
+    font-size: 17px;
+    position: absolute;
+    top: 148%;
+    width: 17%;
+    left: 15.4%;
+    color: rgb(202, 202, 202)
+}
+.products .btn1 {
+    position: absolute;
+    list-style-type: none;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 5%;
+    border-radius: 30px;
+    color: red;
+    top: 160.5%;
+    left: 16.4%;
+}
+.products li a {
+    text-decoration: none;
+    color: inherit;
+}
+.products li:hover {
+    background-color: red;
+    color: black;
+}
+.products .sku1 {
+    position: absolute;
+    width: 80px;
+    top: 139%;
+    left: 15.4%;
+}
+.products .product2 {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 31.7%;
+    top: 132.65%;
+    left: 33.7%;
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+    border-bottom: 5px solid red;
+}
+.products .product2 .txt2 {
+    position: absolute;
+    top: -12.4%;
+    left: 41.5%;
+    font-size: x-large;
+    color: red;
+}
+.products .cont2 {
+    font-size: 17px;
+    position: absolute;
+    top: 148%;
+    width: 17%;
+    left: 47.3%;
+    color: rgb(202, 202, 202)
+}
+.products .btn2 {
+    position: absolute;
+    list-style-type: none;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 5%;
+    border-radius: 30px;
+    color: red;
+    top: 160.5%;
+    left: 48.3%;
+}
+.products .sku2 {
+    position: absolute;
+    width: 80px;
+    top: 139%;
+    left: 47.3%;
+}
+.products .product2 img {
+    width: 39.5%;
+}
+.products .product3 {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 31.7%;
+    top: 171.65%;
+    left: 0;
+    border: 5px solid red;
+}
+.products .product3 .txt3 {
+    position: absolute;
+    top: -8.4%;
+    left: 47%;
+    font-size: x-large;
+    color: red;
+}
+.products .cont3 {
+    font-size: 17px;
+    position: absolute;
+    top: 191.5%;
+    width: 17%;
+    left: 15.4%;
+    color: rgb(202, 202, 202)
+}
+.products .btn3 {
+    position: absolute;
+    list-style-type: none;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 5%;
+    border-radius: 30px;
+    color: red;
+    top: 204%;
+    left: 16.4%;
+}
+.products .sku3 {
+    position: absolute;
+    width: 80px;
+    top: 180.5%;
+    left: 15.4%;
+}
+.products .product4 {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 31.7%;
+    height: 41.7%;
+    top: 171.65%;
+    left: 33.7%;
+    border: 5px solid red;
+}
+.products .product4 .txt4 {
+    position: absolute;
+    top: -8.4%;
+    left: 47%;
+    font-size: x-large;
+    color: red;
+}
+.products .cont4 {
+    font-size: 17px;
+    position: absolute;
+    top: 191.5%;
+    width: 17%;
+    left: 49.1%;
+    color: rgb(202, 202, 202)
+}
+.products .btn4 {
+    position: absolute;
+    list-style-type: none;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 5%;
+    border-radius: 30px;
+    color: red;
+    top: 204%;
+    left: 50.1%;
+}
+.products .sku4 {
+    position: absolute;
+    width: 80px;
+    top: 181.5%;
+    left: 49.1%;
+}
 
 .active { background-color: rgb(255, 0, 0);
 }
